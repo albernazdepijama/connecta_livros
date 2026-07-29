@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    
+}
+
+header{
+    background-color: #733F2D;
+    max-width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(252, 249, 249);
+    align-items: center;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+
+}
+
+.cl{
+    padding: 10px;
+}
+
+.button-da-debora{
+    color: aqua;
+    border-color: aquamarine;
+}
