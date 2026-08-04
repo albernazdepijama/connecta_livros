@@ -78,7 +78,7 @@ a:hover{
 .banner-principal{
     text-align: center;
     padding: 40px 200px;
-    background-image: linear-gradient(var--marrom-principal,var--marrom-claro);
+    background-image: linear-gradient(var(--marrom-principal),var(--marrom-claro));
     color: aliceblue;
     height: 35vh;
     
@@ -105,3 +105,42 @@ p{
     
 }
 
+.foto-livro {
+    max-width: 15vw;
+
+}
+
+.grade-livros{
+    max-width: 80vw;
+    margin: 0px auto;
+
+}
+
+.livros-populares{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px 0px;
+
+}
+
+.card-livro{
+    width: 300px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #5c3224;
+    padding-top: 30px;
+    box-shadow: 0px 0px 10px #251712 ;
+    overflow: hidden;
+
+}
+
+.info-livro{
+    padding-top: 20px;
+}
+.btn-livro{
+    background-color: #733F2D;
+    padding: 10px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
