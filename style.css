@@ -113,6 +113,10 @@ p{
 .grade-livros{
     max-width: 80vw;
     margin: 0px auto;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -142,5 +146,31 @@ p{
     padding: 10px;
     color: aliceblue;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-livro:hover{
+    background-color:#251712;
+
+}
+
+.categoria-livro{
+    font-size: 16px;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: #422020;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.titulo-livro{
+    font-size: 25px;
+    color: antiquewhite;
+    padding: 15px;
+}
+
+.autores-livro{
+    font-size: 16px;
+    margin-bottom: 15px;
 }
