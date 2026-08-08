@@ -106,13 +106,14 @@ p{
 }
 
 .foto-livro {
-    max-width: 10vw;
+    width: 200px;
+    height: 260px;
 
 }
 
 .grade-livros{
     max-width: 80vw;
-    margin: 0px auto;
+    margin: 50px auto;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
@@ -122,28 +123,35 @@ p{
 
 .livros-populares{
     text-align: center;
-    font-size: 25px;
-    margin-top: 20px 0px;
+    font-size: 30px;
+    margin-top: 30px ;
+    font-weight: 600;
 
 }
 
 .card-livro{
-    width: 200px;
+    width: 11vw;
     text-align: center;
     border-radius: 6px;
     background-color: #5c3224;
-    padding-top: 30px;
+    padding-top: 6px;
     box-shadow: 0px 0px 10px #251712 ;
     overflow: hidden;
 
 }
 
 .info-livro{
-    padding-top: 20px;
+    height: 220px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+
 }
 .btn-livro{
     background-color: #733F2D;
-    padding: 10px 25px;
+    padding: 8px 10px;
     color: aliceblue;
     border: none;
     border-radius: 5px 15px;
@@ -173,4 +181,41 @@ p{
 .autores-livro{
     font-size: 16px;
     margin-bottom: 15px;
+}
+
+/*Secao como funciona*/
+
+.ajuda{
+    background-image: linear-gradient(var(--marrom-claro), var(--marrom-principal));
+    padding: 60px  20px;
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 80x;
+    font-size: 25px;
+    border-top: 6px solid var(--marrom-claro);
+    box-shadow: 0 0 15px #744b3b ;
+}
+
+.todos-passos{
+    display: flex;
+    justify-content: center;
+    max-width:85vw;
+    margin: 0 auto;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.todos-passos{
+    width: 25vw;
+}
+
+.footer-container{
+    height: 30vh;
+    width: 100vw;
+    background-image: linear-gradient(var(--marrom-principal),var(--marrom-claro));
+    color: aliceblue;
+    display: flex;
+    border-bottom: 6px solid var(--marrom-claro);
+    box-shadow: 0 0 15px #744b3b;
 }
