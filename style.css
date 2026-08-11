@@ -191,7 +191,7 @@ p{
     color: antiquewhite;
     text-align: center;
     margin-bottom: 80x;
-    font-size: 25px;
+    font-size: 20px;
     border-top: 6px solid var(--marrom-claro);
     box-shadow: 0 0 15px #744b3b ;
 }
@@ -206,16 +206,81 @@ p{
     flex-wrap: wrap;
 }
 
-.todos-passos{
+.passos{
     width: 25vw;
 }
 
-.footer-container{
-    height: 30vh;
-    width: 100vw;
+.passos p {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+footer{
     background-image: linear-gradient(var(--marrom-principal),var(--marrom-claro));
-    color: aliceblue;
+    padding: 10px;
+   
+
+}
+
+.footer-container{
     display: flex;
-    border-bottom: 6px solid var(--marrom-claro);
-    box-shadow: 0 0 15px #744b3b;
+    height: 30vh;
+    max-width: 95vw;
+    margin: 0 auto;
+    color: aliceblue;
+    border-bottom: 0px solid var(--marrom-claro);
+    justify-content: space-between;
+    
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.footer-coluna P{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-coluna{
+    display: flex;
+    flex-direction: column;
+    max-width: 28vw;
+    
+}
+
+.footer-coluna ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 16px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer-coluna h4 {
+     color: #331509  ;
+}
+
+.footer-social{
+    padding: 15px;
+
+}
+
+.footer-linha{
+    max-width: 70vw;
+    margin: 20px auto;
+    border:solid #251712;
+}
+
+
+.footer-copy{
+    margin-top: 20px ;
+    text-align: center;
+
 }
