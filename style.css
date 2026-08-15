@@ -281,12 +281,15 @@ a{
 
 }
 
-.footer-social{
+.footer-social i {
     font-size: 33px;
+    transform: scale(1.1);
 }
 
 
-.footer-coluna li a:hover {
+.footer-coluna a:hover {
     color: #582716;
+    font-weight: 600;
+    box-sizing: border-box;
 
 }
