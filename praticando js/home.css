@@ -1,0 +1,81 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+main{
+
+    margin: 0 auto;
+    width: 75vw;
+    text-align: center;
+}
+
+h2{
+    background-color:rgb(255, 174, 217);
+    border-radius: 10px;
+    font-weight: 400;
+    margin: 20px;
+    padding: 3px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+#caixa{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(253, 234, 244);
+    margin: 20px auto;
+}
+
+.btn{
+    padding: 5px 10px;
+    margin-right: 10px;
+
+}
+
+.area_add_sub{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.area_add_sub button{
+    padding: 5px 10px;
+    background-color: rgb(253, 234, 244);
+    border: 1px solid  rgb(253, 234, 244);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.area_add_sub button:hover{
+    background-color: rgb(211, 162, 187);
+}
+
+.area_livros{
+    margin: 10px auto;
+}
+
+.area_livros button{
+    padding: 5px 10px;
+    background-color: rgb(253, 234, 244);
+    border: 1px solid  rgb(253, 234, 244);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.area_livros button:hover{
+    background-color: rgb(211, 162, 187);
+}
